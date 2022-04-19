@@ -1,0 +1,70 @@
+
+<header id="header">
+    <div class="navbar-header">
+        <div class="d-flex">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <a routerLink="" class="logo ">
+                    <img src="assets/images/Alternative.png" alt="" height="35">
+                </a>
+            </div> 
+            <!-- App Search-->
+            <form class="app-search d-none d-lg-block">
+                <div class="position-relative">
+                    <input type="text" class="form-control" placeholder="Rechercher ...">
+                    <!-- <mat-icon>search</mat-icon>                     -->
+                </div>
+            </form>
+        </div>
+
+        <div class="d-flex">
+            <button mat-button [matMenuTriggerFor]="menu" (click)="fullscreen()">
+                <mat-icon>fullscreen</mat-icon>
+            </button>
+            <button mat-button [matMenuTriggerFor]="menu">
+                <mat-icon>settings</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="logout()">Déconnexion</button>
+            </mat-menu>
+            <!-- <div class="dropdown d-inline-block d-flex" ngbDropdown>
+                <button type="button" class="btn header-item waves-effect" ngbDropdownToggle
+                    id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="d-none d-xl-inline-block ms-1">Peter</span>
+                    <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-end" ngbDropdownMenu> -->
+                    <!-- item-->
+                    <!-- <a class="dropdown-item" href="#"><i
+                            class="mdi mdi-account-circle text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-profile">{{ 'HEADER.LOGIN.PROFILE' | translate}}</span></a>
+                    <a class="dropdown-item" routerLink="/pages/profile"><i
+                            class="mdi mdi-message-text-outline text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-messages">{{ 'HEADER.LOGIN.MESSAGES' | translate}}</span></a>
+                    <a class="dropdown-item" href="#"><i
+                            class="mdi mdi-calendar-check-outline text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-taskboard">{{ 'HEADER.LOGIN.TASKBOARD' | translate}}</span></a>
+                    <a class="dropdown-item" href="#"><i
+                            class="mdi mdi-lifebuoy text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-help">{{ 'HEADER.LOGIN.HELP' | translate}}</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i
+                            class="mdi mdi-wallet text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-balance">{{ 'HEADER.LOGIN.BALANCE' | translate}} :
+                            <b>$1901.67</b></span></a>
+                    <a class="dropdown-item" href="#"><span
+                            class="badge bg-success bg-soft text-success mt-1 float-end">New</span><i
+                            class="mdi mdi-cog-outline text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-settings">{{ 'HEADER.LOGIN.SETTINGS' | translate}}</span></a>
+                    <a class="dropdown-item" href="#"><i
+                            class="mdi mdi-lock text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-lock-screen">{{ 'HEADER.LOGIN.LOCK_SCREEN' |
+                            translate}}</span></a> -->
+                    <!-- <a class="dropdown-item" href="javascript: void(0);" (click)="logout()"><i
+                            class="mdi mdi-logout text-muted font-size-16 align-middle me-1"></i> <span
+                            class="align-middle" key="t-logout">Déconnexion</span></a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        </div>
+    </div>
+</header>

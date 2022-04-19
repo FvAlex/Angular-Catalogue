@@ -1,0 +1,26 @@
+<div class="div_main">  
+    <div class="FirstDiv">
+        <!-- <app-first-component></app-first-component> -->
+        <app-first-component [mesDonnees]="mesDonneesCatalogue"></app-first-component>
+    </div>
+    <div class="SecondDiv">
+        <tr *ngFor="let formation of Item; let i = index">
+            <th> {{ formation.id_formation }}</th>
+            <th> {{ formation.titre }}</th>
+            <td> {{ formation.objectifs }}</td>
+        </tr>
+    </div>
+    <!-- <div class="search">
+        <input class="form-control" type="text" name="search" autocomplete="off" placeholder="Rechercher ..">
+    </div> -->
+    <div class="ThirdDiv">
+        <tr *ngFor="let formation of mesDonneesCatalogue_new ; let i = index">
+            <th> {{ formation.id_formation }}</th>
+            <th> {{ formation.titre }}</th>
+            <td> {{ formation.objectifs }}</td>
+        </tr>
+    </div>
+    <div class="FourthDiv">
+        <app-first-component [mesDonnees]="mesDonneesCatalogue_new"></app-first-component> 
+    </div>
+</div>

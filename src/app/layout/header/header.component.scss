@@ -1,0 +1,40 @@
+header{
+    background-color: #0576b9;
+    border-color: #0576b9;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+    display: flex;
+    justify-content: center;
+}
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.d-flex {
+    display: flex;
+    flex-direction: row;
+} 
+.app-search{
+    margin-top: 10px;
+    color: #fff;
+
+}
+.form-control{
+    background-color: rgba(243, 243, 249, 0.07); 
+    border-color: rgba(243, 243, 249, 0.07);   
+    color: #fff;
+}
+.form-control::placeholder{
+    color: #EAEDED ;
+    opacity: 0.5;
+}
+.navbar-brand-box {
+    padding: 0 1.5rem;
+    margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+<nav>
+    <div class="nav_width">
+        <button mat-button routerLink="">Accueil</button>
+        <button mat-button [matMenuTriggerFor]="menu">Catalogues</button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item routerLink="/catalogue">Gestion</button>
+        </mat-menu>
+    </div>
+    <!-- <div class="search">
+        <input class="form-control" type="text" name="search" autocomplete="off" placeholder="&#61442;">
+    </div> -->
+</nav>

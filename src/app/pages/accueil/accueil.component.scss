@@ -1,0 +1,92 @@
+main{
+    width: 1600px;
+    height: 1425px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bc-fff{
+    background-color: #fff;
+}
+.titre-accueil{
+    width: 100%;
+    height: 50px;
+}
+.FourDivHorizontal{
+    display: flex;
+    flex-direction: row;
+}
+.FirstDivHorizontal{
+    border:solid black 1px;
+    height: 125px;
+    width: 375px;
+}
+.SecondDivHorizontal{
+    border:solid black 1px;
+    height: 125px;
+    width: 375px;
+    margin-left: 31px;
+}
+.ThirdDivHorizontal{
+    border:solid black 1px;
+    height: 125px;
+    width: 375px;
+    margin-left: 31px;
+
+}
+.FourthDivHorizontal{
+    border:solid black 1px;
+    height: 125px;
+    width: 375px;
+    margin-left: 31px;
+}
+.ThirdDivMid{
+    margin-top: 25px;
+}
+.ThirdDivMidMain{
+    display: flex;
+    flex-direction: row;
+}
+.ThirdDivMidMainFirst{
+    border:solid black 1px;
+    height: 400px;
+    width: 950px;
+}
+.ThirdDivMidMainSecond{
+    margin-left: 69px;
+}
+.ThirdDivMidMainSecondFirst{
+    border:solid black 1px;
+    height: 184px;
+    width: 575px;
+}
+.ThirdDivMidMainSecondSecond{
+    border:solid black 1px;
+    height: 184px;
+    width: 575px;
+    margin-top: 30px;
+}
+.DivThird{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.DivThirdOne{
+    border:solid black 1px;
+    width: 780px;
+    height: 350px;
+}
+.DivThirdTwo{
+    border:solid black 1px;
+    width: 780px;
+    height: 350px;
+    margin-left: 32px;
+}
+.DivFooter{
+    margin-top: 25px
+}
+.DivFooterFirst{
+    border:solid black 1px;
+    width: 1590px;
+    height: 350px
+}

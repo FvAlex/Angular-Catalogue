@@ -1,0 +1,48 @@
+.mat-form-field {
+    margin-right: 4px;
+  }
+.div_main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1850px;
+  border-radius: 100px;
+} 
+.FirstDiv{
+  width: 25%;
+  -webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25); 
+  box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25);
+  overflow-y: scroll;
+  height: 750px;
+  background-color: #fff;
+
+}
+.SecondDiv{
+  width: 25%;
+  background-color: white;
+  margin-left:10px;
+  -webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25); 
+  box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25);
+  overflow-y: scroll;
+  height: 750px;
+  background-color: #fff;
+}
+.ThirdDiv{
+  width: 25%;
+  background-color: white;
+  margin-right:10px;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25); 
+  box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25);
+  overflow-y: scroll;
+  height: 750px;
+  background-color: #fff;
+}
+.FourthDiv{
+  width: 25%;
+  -webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25); 
+  box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.25);
+  overflow-y: scroll;
+  height: 750px;
+  background-color: #fff;
+}

@@ -1,0 +1,6 @@
+{
+    "/njsite/*" : {
+        "target": "http://localhost:55534",
+        "secure": false
+    }
+}
